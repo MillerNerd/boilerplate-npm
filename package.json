@@ -2,6 +2,7 @@
 	"name": "fcc-learn-npm-package-json",
 	"author": "Sean Miller",
 	"description": "Id boo",
+	"keywords": [ "freecodecamp", "stuff", "and", "junk"],
 	"dependencies": {
 		"express": "^4.14.0"
 	},
