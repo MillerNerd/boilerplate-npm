@@ -2,7 +2,12 @@
 	"name": "fcc-learn-npm-package-json",
 	"author": "Sean Miller",
 	"description": "Id boo",
-	"keywords": [ "freecodecamp", "stuff", "and", "junk"],
+	"keywords": [
+		"freecodecamp",
+		"stuff",
+		"and",
+		"junk"
+	],
 	"license": "MIT",
 	"version": "1.0.0",
 	"dependencies": {
