@@ -1,0 +1,18 @@
+version: '1'
+services:
+  express:
+    image: "node:17.1.0"
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: 
+  localtunnel:
+    image: "node:17.1.0"
+    working_dir: /app
+
+networks:
+  default:
+    external: true
+    name: boilerplate
